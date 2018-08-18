@@ -15,6 +15,7 @@ import java.util.*;
  * 
  * For the follow-up question, I would use a inner class 'Node' which has an iterator in it
  * and a min heap to keep track of the current smallest element in each lists.
+ * Using iterator, we do not need to keep track of current indicies of k sorted lists.
  */
 class MergeKsortedLists {
     public static void main(String[] args) {
